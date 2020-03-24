@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/swapi-apple/static/css/main.40a25488.chunk.css",
-    "main.js": "/swapi-apple/static/js/main.4b007453.chunk.js",
-    "main.js.map": "/swapi-apple/static/js/main.4b007453.chunk.js.map",
+    "main.css": "/swapi-apple/static/css/main.75f99770.chunk.css",
+    "main.js": "/swapi-apple/static/js/main.39c2118e.chunk.js",
+    "main.js.map": "/swapi-apple/static/js/main.39c2118e.chunk.js.map",
     "runtime-main.js": "/swapi-apple/static/js/runtime-main.b8d9cca3.js",
     "runtime-main.js.map": "/swapi-apple/static/js/runtime-main.b8d9cca3.js.map",
-    "static/css/2.21c52bbb.chunk.css": "/swapi-apple/static/css/2.21c52bbb.chunk.css",
-    "static/js/2.53b80c8d.chunk.js": "/swapi-apple/static/js/2.53b80c8d.chunk.js",
-    "static/js/2.53b80c8d.chunk.js.map": "/swapi-apple/static/js/2.53b80c8d.chunk.js.map",
+    "static/css/2.de424728.chunk.css": "/swapi-apple/static/css/2.de424728.chunk.css",
+    "static/js/2.2466de6b.chunk.js": "/swapi-apple/static/js/2.2466de6b.chunk.js",
+    "static/js/2.2466de6b.chunk.js.map": "/swapi-apple/static/js/2.2466de6b.chunk.js.map",
     "index.html": "/swapi-apple/index.html",
-    "precache-manifest.f27576680794df06677117d0f94e8f15.js": "/swapi-apple/precache-manifest.f27576680794df06677117d0f94e8f15.js",
+    "precache-manifest.fb75e89da7f5c1e69ad32ea7a5556d9e.js": "/swapi-apple/precache-manifest.fb75e89da7f5c1e69ad32ea7a5556d9e.js",
     "service-worker.js": "/swapi-apple/service-worker.js",
-    "static/css/2.21c52bbb.chunk.css.map": "/swapi-apple/static/css/2.21c52bbb.chunk.css.map",
-    "static/css/main.40a25488.chunk.css.map": "/swapi-apple/static/css/main.40a25488.chunk.css.map",
-    "static/js/2.53b80c8d.chunk.js.LICENSE.txt": "/swapi-apple/static/js/2.53b80c8d.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/swapi-apple/static/media/roboto-latin-900italic.ebf6d164.woff2"
+    "static/css/2.de424728.chunk.css.map": "/swapi-apple/static/css/2.de424728.chunk.css.map",
+    "static/css/main.75f99770.chunk.css.map": "/swapi-apple/static/css/main.75f99770.chunk.css.map",
+    "static/js/2.2466de6b.chunk.js.LICENSE.txt": "/swapi-apple/static/js/2.2466de6b.chunk.js.LICENSE.txt",
+    "static/media/droid.svg": "/swapi-apple/static/media/droid.dce70c46.svg",
+    "static/media/human.svg": "/swapi-apple/static/media/human.0cf5c4bd.svg",
+    "static/media/star-jedi.ttf": "/swapi-apple/static/media/star-jedi.7c622ae5.ttf",
+    "static/media/wookie.svg": "/swapi-apple/static/media/wookie.b6b4459c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b8d9cca3.js",
-    "static/css/2.21c52bbb.chunk.css",
-    "static/js/2.53b80c8d.chunk.js",
-    "static/css/main.40a25488.chunk.css",
-    "static/js/main.4b007453.chunk.js"
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.2466de6b.chunk.js",
+    "static/css/main.75f99770.chunk.css",
+    "static/js/main.39c2118e.chunk.js"
   ]
 }
