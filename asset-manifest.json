@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/swapi-apple/static/css/main.40a25488.chunk.css",
+    "main.js": "/swapi-apple/static/js/main.30a4c1fe.chunk.js",
+    "main.js.map": "/swapi-apple/static/js/main.30a4c1fe.chunk.js.map",
+    "runtime-main.js": "/swapi-apple/static/js/runtime-main.b8d9cca3.js",
+    "runtime-main.js.map": "/swapi-apple/static/js/runtime-main.b8d9cca3.js.map",
+    "static/css/2.21c52bbb.chunk.css": "/swapi-apple/static/css/2.21c52bbb.chunk.css",
+    "static/js/2.53b80c8d.chunk.js": "/swapi-apple/static/js/2.53b80c8d.chunk.js",
+    "static/js/2.53b80c8d.chunk.js.map": "/swapi-apple/static/js/2.53b80c8d.chunk.js.map",
+    "index.html": "/swapi-apple/index.html",
+    "precache-manifest.7385d024c134c88a50dde0664c7c78b1.js": "/swapi-apple/precache-manifest.7385d024c134c88a50dde0664c7c78b1.js",
+    "service-worker.js": "/swapi-apple/service-worker.js",
+    "static/css/2.21c52bbb.chunk.css.map": "/swapi-apple/static/css/2.21c52bbb.chunk.css.map",
+    "static/css/main.40a25488.chunk.css.map": "/swapi-apple/static/css/main.40a25488.chunk.css.map",
+    "static/js/2.53b80c8d.chunk.js.LICENSE.txt": "/swapi-apple/static/js/2.53b80c8d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/swapi-apple/static/media/roboto-latin-900italic.ebf6d164.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b8d9cca3.js",
+    "static/css/2.21c52bbb.chunk.css",
+    "static/js/2.53b80c8d.chunk.js",
+    "static/css/main.40a25488.chunk.css",
+    "static/js/main.30a4c1fe.chunk.js"
+  ]
+}
