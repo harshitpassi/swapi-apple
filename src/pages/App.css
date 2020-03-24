@@ -32,6 +32,40 @@
     color: white;
 }
 
+.people-button {
+    margin-top: 5px;
+}
+
+.header-bar {
+    background-color: #34338a;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.navbar-brand {
+    font-family: StarJedi;
+    font-size: 1.5rem;
+}
+
+.modal-dialog {
+    min-width: 80%;
+}
+
+.person-card {
+    max-height: 255px;
+}
+
+.list-group-item {
+    background-color: #5ba053;
+    color: white;
+}
+
+.person-card img {
+    height: 80px;
+    margin: auto;
+    padding-top: 5px;
+}
+
 @keyframes App-logo-spin {
     from {
         transform: rotate(0deg);

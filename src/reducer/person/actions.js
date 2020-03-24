@@ -2,6 +2,7 @@ export const SET_CURRENT_PERSON = 'SET_CURRENT_PERSON';
 export const SET_PERSON_PROFILE = 'SET_PERSON_PROFILE';
 export const SET_PERSON_WORLD = 'SET_PERSON_WORLD';
 export const SET_PERSON_MOVIES = 'SET_PERSON_MOVIES';
+export const SET_PERSON_STARSHIPS = 'SET_PERSON_STARSHIPS';
 
 export function setCurrentPerson(id) {
     return {
@@ -57,5 +58,23 @@ export function setPersonMovies(movies) {
     return {
         type: SET_PERSON_MOVIES,
         movies,
+    };
+}
+
+export function getPersonStarships(starshipUrls) {
+    return dispatch =>
+        Promise.all(starshipUrls.map(url =>
+            fetch(url)
+            .then(res => res.json())
+        ))
+        .then(starships => {
+            dispatch(setPersonStarships(starships));
+        });
+}
+
+export function setPersonStarships(starships) {
+    return {
+        type: SET_PERSON_STARSHIPS,
+        starships,
     };
 }
