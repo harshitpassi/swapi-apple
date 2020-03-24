@@ -2,10 +2,6 @@ import React from 'react';
 import {Container, Row, Jumbotron} from 'react-bootstrap';
 import './App.css';
 import PeopleList from './components/PeopleList';
-import PersonProfile from './components/PersonProfile';
-import PersonWorld from './components/PersonWorld';
-import PersonMovies from './components/PersonMovies';
-import PersonStarships from './components/PersonStarships';
 import Navigation from './components/Navigation';
 import {connect} from 'react-redux';
 
@@ -23,10 +19,6 @@ function App({person}) {
 </Jumbotron>
       <Row>
         <PeopleList />
-        {person.profile && <PersonProfile />}
-        {person.world && <PersonWorld />}
-        {person.movies && <PersonMovies />}
-        {person.starships && <PersonStarships />}
       </Row>
     </Container>
   );

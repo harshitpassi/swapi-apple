@@ -1,4 +1,4 @@
-import { SET_PEOPLE } from './actions';
+import { SET_PEOPLE, SHOW_LOADER } from './actions';
 
 const initialState = {
     loading: true,
@@ -12,6 +12,10 @@ export default (state = initialState, action) => {
                 loading: false,
                 data: action.people
             };
+        case SHOW_LOADER:
+            return {
+                loading: true
+            }
         default:
             return state;
     }

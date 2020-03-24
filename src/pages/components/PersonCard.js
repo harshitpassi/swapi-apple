@@ -5,9 +5,10 @@ import droid from './icons/droid.svg';
 import other from './icons/wookie.svg';
 import {connect} from 'react-redux';
 import { setCurrentPerson, getPersonProfile, getPersonWorld, getPersonMovies, getPersonStarships } from '../../reducer/person/actions';
+import { openProfileModal } from '../../reducer/modals/actions'
 
 const PersonCard = ({props, setPerson}) => {
-    let specie = (props.ownProps.currentPerson && props.ownProps.currentPerson.species) ? props.ownProps.currentPerson.species[0].split('/')[5] : null;
+    let specie = (props.ownProps.currentPerson && props.ownProps.currentPerson.species.length !== 0) ? props.ownProps.currentPerson.species[0].split('/')[5] : null;
     let filmsExist = (props.ownProps.currentPerson && props.ownProps.currentPerson.films);
     let starshipsExist = (props.ownProps.currentPerson && props.ownProps.currentPerson.starships);
     let img;
@@ -49,6 +50,7 @@ const mapDispatchToProps = dispatch => ({
             dispatch(getPersonWorld(worldUrl));
             dispatch(getPersonMovies(films));
             dispatch(getPersonStarships(starships));
+            dispatch(openProfileModal());
         }
     }
 });

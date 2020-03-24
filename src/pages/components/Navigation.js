@@ -1,8 +1,10 @@
 import React from 'react';
 import {Navbar} from 'react-bootstrap';
+import { connect } from 'react-redux';
+import { getPeoplePage } from '../../reducer/people/actions';
 
-export default () => (<Navbar className='header-bar' variant="dark">
-<Navbar.Brand href="#home">
+const Navigation = ({goHome}) => (<Navbar className='header-bar' variant="dark">
+<Navbar.Brand style={{cursor: 'pointer'}} onClick={goHome()} >
   <img
     alt=""
     src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Star_Wars_Yellow_Logo.svg"
@@ -13,4 +15,14 @@ export default () => (<Navbar className='header-bar' variant="dark">
   />{' '}
   Character Catalogue
 </Navbar.Brand>
-</Navbar>) 
+</Navbar>)
+
+const mapDispatchToProps = dispatch => ({
+    goHome() {
+        return () => {
+            dispatch(getPeoplePage(1));
+        }
+    }
+});
+
+export default connect(null, mapDispatchToProps)(Navigation);

@@ -47,6 +47,10 @@
     font-size: 1.5rem;
 }
 
+.modal-dialog {
+    min-width: 80%;
+}
+
 .person-card {
     max-height: 255px;
 }
