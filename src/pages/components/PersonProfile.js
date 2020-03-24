@@ -3,8 +3,8 @@ import {connect} from 'react-redux';
 import {Col} from 'react-bootstrap';
 
 const PersonProfile = ({profile, world}) => {
-    return <Col md={6}>
-    <h1>Profile</h1>
+    return <Col md={3}>
+    {profile.name && <h1>Profile</h1>}
     {profile.name && <p>Name: {profile.name}</p>}
     {profile.height && <p>Height: {profile.height} cm</p>}
     {profile.mass && <p>Mass: {profile.mass} kg</p>}

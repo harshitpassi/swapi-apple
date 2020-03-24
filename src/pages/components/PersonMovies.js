@@ -2,8 +2,8 @@ import React from 'react';
 import {Col} from 'react-bootstrap';
 import {connect} from 'react-redux';
 
-const PersonMovies = ({movies}) => <Col md={6}>
-    <h1>Films</h1>
+const PersonMovies = ({movies}) =>  <Col md={3}>
+    {movies.length > 0 && <h1>Films</h1>}
     <ul>
         {movies.map(movie => {
             const dates = movie.release_date.split('-');
